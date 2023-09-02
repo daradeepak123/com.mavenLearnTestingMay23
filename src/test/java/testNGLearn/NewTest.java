@@ -22,6 +22,11 @@ public class NewTest {
   }
   
   
+  @Test
+  public void testMethod12() {
+	  System.out.println("THis is actual test1111111111111");
+  }
+  
   @BeforeMethod
   public void beforeMethod() {
 	  System.out.println("THis is before method");
