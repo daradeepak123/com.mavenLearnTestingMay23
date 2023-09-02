@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="testNGLearn.NewTest"/>
+      <class name="testNGLearn.TestAnnotationLearn"/>
+      <class name="com.orangeHRMAppLearn.DashBoardTest"/>
+      <class name="com.orangeHRMAppLearn.LeavePage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

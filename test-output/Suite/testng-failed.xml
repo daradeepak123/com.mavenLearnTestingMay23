@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.orangeHRMAppLearn.DashBoardTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="dashboard"/>
+          <include name="logOutapp"/>
+          <include name="loginapp"/>
+          <include name="dashboardTimeWork"/>
+          <include name="closePostDocuments"/>
+          <include name="launchBrowser"/>
+          <include name="closeDriver"/>
+          <include name="dashBoard"/>
+        </methods>
+      </class> <!-- com.orangeHRMAppLearn.DashBoardTest -->
+      <class name="com.orangeHRMAppLearn.LeavePage">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="logOutapp"/>
+          <include name="loginapp"/>
+          <include name="closePostDocuments"/>
+          <include name="launchBrowser"/>
+          <include name="closeDriver"/>
+          <include name="dashBoard"/>
+          <include name="leave"/>
+        </methods>
+      </class> <!-- com.orangeHRMAppLearn.LeavePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
